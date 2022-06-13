@@ -26,7 +26,7 @@
 
 
  const element = <h1 className="header"> This is JSX </h1>
- console.log(element);
+
 
 
 const page = (
@@ -47,6 +47,7 @@ const section = (
   </div>
 );
 
+console.log(section.props);
 
 // console.log(section);
 

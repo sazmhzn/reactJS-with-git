@@ -6,4 +6,9 @@
 
 body {
   background-color: rgb(37, 188, 138);
+  font-family:  'helvetica';
+}
+
+h1 {
+  margin-bottom: 10px;
 }
