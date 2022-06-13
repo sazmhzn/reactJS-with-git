@@ -28,22 +28,27 @@
  const element = <h1 className="header"> This is JSX </h1>
  console.log(element);
 
-const navBar = (
-  <nav>
-    <h1>
-      Bos's Bistra
-    </h1>
+
+const page = (
+  <div>This is a sample page</div>
+);
+
+const section = (
+  <div>
+    <img src="./React.webp" width="40px" ></img>
+    <h1> Fun facts about React</h1>
     <ul>
-      <li>Pricing</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li>Was first released in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Has well over 100K stars on Github</li>
+      <li>Is maintained by Facebook</li>
+      <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
-  </nav>
+  </div>
 );
 
 
-
-console.log(navBar);
+// console.log(section);
 
  //append the code in root element -->
- ReactDOM.render(navBar, document.getElementById("root")); 
+ ReactDOM.render(section, document.getElementById("root")); 
