@@ -44,16 +44,23 @@
 // ReactDOM.render(<TemporaryName />, document.getElementById("root"));
 
 /*==================== compoments ========================*/
-function Page() {
+
+/* ========================= Challenges ============================== */
+
+function Header() {
   return (
-    <div>
-      <h1>The reasons to leaer React JS</h1>
-      <ol>
-        <li>It's a popular library, so I'll be there</li>
-        <li>I'm more likely to get a job as a deevlpoper if I knwo react</li>
-      </ol>
-    </div>
+    <header>
+      <nav>
+        <img src="./React.webp" width="40px"></img>
+        <h1>
+          Reasons I'm exited to learn React
+        </h1>
+        <ol>
+          It is popular
+        </ol>
+      </nav>
+    </header>
   );
 }
 
-ReactDOM.render( <Page />, document.getElementById("root") )
+ReactDOM.render(<Header />, document.getElementById("root"));
