@@ -2,6 +2,7 @@
 
 function Header() {
   return (
+    //This is JSX
     <div>
       <header>
         <nav>
