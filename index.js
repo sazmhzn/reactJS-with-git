@@ -14,6 +14,7 @@ function Page() {
   return (
     //This is JSX
     <div>
+      <Header />
       <h1>Reasons I'm exited to learn React</h1>
       <ol>
         <li>
