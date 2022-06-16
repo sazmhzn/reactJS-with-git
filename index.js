@@ -24,18 +24,13 @@
 //   );
 // }
 
+const element = <h1 className="header"> This is JSX </h1>;
 
- const element = <h1 className="header"> This is JSX </h1>
-
-
-
-const page = (
-  <div>This is a sample page</div>
-);
+const page = <div>This is a sample page</div>;
 
 const section = (
   <div>
-    <img src="./React.webp" width="40px" ></img>
+    <img src="./React.webp" width="40px"></img>
     <h1> Fun facts about React</h1>
     <ul>
       <li>Was first released in 2013</li>
@@ -47,9 +42,23 @@ const section = (
   </div>
 );
 
-console.log(section.props);
+function TemporaryName() {
+  return (
+    <div>
+      <img src="./React.webp" width="40px"></img>
+      <h1> Fun facts about React</h1>
+      <ul>
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Has well over 100K stars on Github</li>
+        <li>Is maintained by Facebook</li>
+        <li>Powers thousands of enterprise apps, including mobile apps</li>
+      </ul>
+    </div>
+  );
+}
 
 // console.log(section);
 
- //append the code in root element -->
- ReactDOM.render(section, document.getElementById("root")); 
+//append the code in root element -->
+ReactDOM.render(<TemporaryName />, document.getElementById("root"));
